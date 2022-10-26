@@ -1,4 +1,5 @@
-#importing cv2, an the most widely used computer vision library, which contains tools for
+#importing cv2, an the most widely used computer vision library, which contains tools that makes our life
+#easier while dealing with image processing and object detection
 import cv2
 
 
@@ -25,7 +26,7 @@ configurations = "D:/IIT/Academics/5fth Semester/ECN-343/Project/Files/ModelsCon
 #This is binary file which contains the weights of the pixels of the trained models
 weights = "D:/IIT/Academics/5fth Semester/ECN-343/Project/Files/BinaryWeights.pb"
 
-#dnn_DetectionModel creates dnn networkwork using weights and config files which is stored in the object networkwork
+#dnn_DetectionModel creates dnn networkwork using weights and config files which is stored in the object network
 network = cv2.dnn_DetectionModel(weights,configurations)
 
 #loading the object into a list
